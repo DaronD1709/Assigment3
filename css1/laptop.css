@@ -1,0 +1,152 @@
+@media (min-width: 1024px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    width: 100%;
+    height: 100%;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Goals */
+
+  .row1 {
+    padding-right: 3rem;
+  }
+
+  .itemlist,
+  .itemlist1,
+  .itemlist2 {
+    display: flex;
+  }
+  .title {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #86848456;
+  }
+
+  ul.listgoals {
+    width: 100%;
+    padding: 0;
+  }
+
+  .itemlist {
+    padding: 1rem 2rem;
+    border-bottom: 2px solid #86848456;
+  }
+
+  .itemlist1 {
+    padding: 1rem 2rem;
+    border: none;
+  }
+
+  .itemlist2 {
+    padding: 1rem 0 1rem 2rem;
+    border-bottom: 2px solid #86848456;
+  }
+
+  .content {
+    height: auto;
+    width: 100%;
+    padding-bottom: 6.6rem;
+  }
+
+  /* TEAM */
+
+  .itemlistteam,
+  .itemlist1,
+  .itemlistteam2,
+  .itemlistteam3 {
+    display: flex;
+  }
+
+  .content1 {
+    height: auto;
+    width: 100%;
+    padding-bottom: 0.2rem;
+  }
+
+  .itemlistteam {
+    padding: 1rem 2rem;
+  }
+
+  .itemlistteam2 {
+    padding: 1rem 0 1rem 2rem;
+  }
+
+  .itemlistteam3 {
+    padding: 1rem 0 1rem 2rem;
+  }
+
+  /* Time Line */
+  .column3 {
+    display: grid;
+    grid-row: 1 / span 4;
+    grid-column: 3 / span 4;
+  }
+
+  .content3 {
+    height: auto;
+    width: 100%;
+    padding-bottom: 0.6rem;
+  }
+
+  .number {
+    font-size: 28px;
+    border: 2px solid #333;
+    background-color: #c7a6ecb4;
+    border-radius: 50%;
+    width: 55px;
+    height: 49px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .itemlisttimeline {
+    padding: 1rem 2rem;
+    border-bottom: 2px dashed #32c1c9;
+  }
+
+  .itemlisttimeline1 {
+    padding: 1rem 2rem;
+    border-bottom: 2px dashed #32c1c9;
+  }
+
+  .itemlisttimeline2 {
+    padding: 1rem 0 1rem 2rem;
+    border-bottom: 2px dashed #32c1c9;
+  }
+
+  .itemlisttimeline3 {
+    padding: 1rem 0 1rem 2rem;
+    border-bottom: 2px dashed #32c1c9;
+  }
+
+  .itemlisttimeline,
+  .itemlisttimeline1,
+  .itemlisttimeline2,
+  .itemlisttimeline3 {
+    display: flex;
+  }
+  /* Scopes */
+  .content4 {
+    height: auto;
+    width: 100%;
+    padding-bottom: 0.1rem;
+  }
+
+  .listgoalsscope {
+    display: flex;
+  }
+}

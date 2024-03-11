@@ -1,0 +1,173 @@
+@media (max-width: 767px){
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .text2,
+  .text1,
+  .text,
+  .container-fluid {
+    border: none;
+    font-size: 18px;
+  }
+  /* Thông tin cá nhân, mục tiêu nghề nghiệp */
+  .target {
+    width: 100%;
+    padding: 1rem;
+    margin: 50px 0;
+  }
+
+  .target p,
+  .target h1 {
+    padding: 1rem;
+  }
+
+  .target p {
+    color: #6b6b6b;
+  }
+
+  .cer-grid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .target-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .break-word {
+    word-break: keep-all;
+  }
+
+
+  /* Thông tin nghề nghiệp */
+  .job {
+    grid-template-columns: 1fr;
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .job1 {
+    height: auto;
+    padding: 2rem;
+    width: 100%;
+  }
+
+  .job-content {
+    height: auto;
+  }
+
+  #project .container,
+  #certificate .container {
+    width: 100%;
+  }
+
+  /* Chứng chỉ  */
+  .cer-content {
+    width: 100%;
+  }
+
+  .cer-content img {
+    width: 100%;
+  }
+
+  .cer-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cer-content2 {
+    border: none;
+  }
+  
+  .cer-content2, .cer-content3
+  {
+    border-top: 2px solid #d6c08d;
+    padding-top: 10px;
+  }
+
+
+  /*  Dự án */
+  #project img {
+    width: 100%;
+  }
+
+  .project-grid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+
+  .project-icon {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: self-start;
+  }
+
+  /* Navbar */
+  .nav-bar {
+    display: flex;
+    flex-basis: auto;
+    padding: 30px 0 ;
+  }
+
+  .navbar a:link,
+  a:visited {
+    display: flex;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    border-collapse: collapse;
+    color: black;
+    font-weight: 500;
+    padding: 5px 0;
+
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    flex-basis: 300px;
+  }
+
+
+  .nav-imgavt
+  {
+    display: none !important;
+  }
+
+  /* Footer */
+  .footer-icon {
+    width: 100%;
+    line-height: 1.5;
+    text-align: center;
+    padding: 200px, 0;
+  }
+  
+  .icon-facebook-circled,
+  .icon-linkedin-circled,
+  .icon-github-circled {
+    font-size: 20px;
+    color: #228be6;
+  }
+  .footer-icon a:link,
+  a:visited {
+    width: 100%;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 15px;
+    color: #495057;
+  }
+}
+
+
+.infor {
+  background: #f1f1f1;
+}

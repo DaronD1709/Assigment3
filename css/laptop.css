@@ -1,0 +1,270 @@
+@media (min-width: 1024px) {
+  /* Chứng chỉ  */
+  .certificate1 {
+    flex: 1;
+  }
+  .text {
+    flex: 1;
+  }
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.01px solid #c9cbcc;
+    height: 80px;
+    flex-basis: 300px;
+  }
+
+  .navbar a:link,
+  a:visited {
+    display: flex;
+    justify-content: center;
+    flex-basis: 200px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    border-left: 0.01px solid #c9cbcc;
+    border-right: 0.01px solid #c9cbcc;
+    border-collapse: collapse;
+    color: black;
+    font-weight: 500;
+    padding: 28px 0;
+  }
+
+  /* Thông tin nghề nghiệp */
+  .job {
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    justify-content: center;
+    margin: 0 200px;
+    column-gap: 40px;
+    row-gap: 40px;
+    color: #495057;
+    margin-bottom: 100px;
+  }
+
+  .job1 {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 10% 100%;
+    justify-content: center;
+    padding: 300px 24px;
+    padding-top: 32px;
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.177);
+    border: 1px solid #ced4da;
+  }
+
+  .job-title {
+    font-size: 1rem;
+  }
+  .job-content {
+    height: 420px;
+    padding: 20px 32px;
+    line-height: 1.6;
+    grid-column: 1/-1;
+  }
+
+  .job-icon {
+    font-size: 38px;
+    margin: 0 10px;
+  }
+
+  .job-content span {
+    background-color: #228be6;
+    border: none;
+    border-radius: 5px;
+    padding: 0 8px;
+    display: inline-block;
+    color: #f1f3f5;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .job2 {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 10% 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 24px;
+    padding-top: 32px;
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.177);
+    border: 1px solid #ced4da;
+  }
+
+  .job-content-icon {
+    display: flex;
+    height: 420px;
+    padding: 0 18px;
+    line-height: 1.6;
+    grid-column: 1/-1;
+    font-size: 18px;
+  }
+
+  .job-info {
+    width: 100%;
+  }
+
+  /* Dots trước title  */
+
+  .list1,
+  .list2,
+  .list3 {
+    position: relative;
+  }
+
+  .dots::before {
+    content: "·";
+    font-size: 48px;
+    color: #228be6;
+    display: inline-block;
+    position: absolute;
+    top: -25px;
+    left: -34px;
+    font-weight: bolder;
+  }
+
+  /* Boder tròn cho icon  */
+  .content-icon1 {
+    border: 2px solid #228be6;
+    border-radius: 50%;
+    font-size: 20px;
+    height: 48px;
+    width: 48px;
+    padding-top: 12px;
+    padding-left: 10px;
+    margin-right: 15px;
+  }
+
+  .content-icon2 {
+    border: 2px solid #228be6;
+    border-radius: 50%;
+    font-size: 20px;
+    height: 48px;
+    width: 48px;
+    padding-top: 12px;
+    padding-left: 15px;
+    margin-right: 15px;
+  }
+
+  .job-content-icon p {
+    margin-top: 10px;
+  }
+
+  /* Ngôn ngữ */
+  .job2 .job-content {
+    padding: 0;
+    margin-left: 20px;
+  }
+
+  .job2 span {
+    background-color: #228be6;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+  }
+
+  .job2 .span-gray {
+    background-color: #ced4da;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+  }
+
+  .job2 .line {
+    margin-top: 20px;
+  }
+
+  /* chung chi  */
+  .cer-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* column-gap: 60px;
+    row-gap: 40px; */
+    width: auto;
+  }
+
+  .certificate1 {
+    /* width: 240px; */
+    margin-right: 10px;
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.177);
+  }
+  .cer-content {
+    display: flex;
+    border-bottom: 2px solid #d6c08d;
+  }
+
+  .wrap-img {
+    flex: 1;
+  }
+  .wrap-img img {
+    width: 100%;
+  }
+
+  .cer-content .text {
+    flex: 1;
+    padding-top: 25px;
+  }
+
+  .text h5 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: normal;
+  }
+
+  .text p {
+    font-size: 15px;
+    color: #c9cbcc;
+  }
+
+  .cer-content2 {
+    padding-left: 20px;
+    border-left: 2px solid #d6c08d;
+  }
+
+  .cer-content3 {
+    padding-top: 20px;
+  }
+
+  .cer-content:last-child {
+    border-bottom: none;
+  }
+
+  /* .cer-content:nth-last-child(even) {
+    border-bottom: none;
+  } */
+  .wrap_place_position {
+    display: flex;
+    gap: 10px;
+  }
+
+  .nav-imgavt
+  {
+    display: none;
+  }
+/* Footer */
+  .footer-icon {
+    width: 100%;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .icon-facebook-circled,
+  .icon-linkedin-circled,
+  .icon-github-circled {
+    font-size: 20px;
+    color: #228be6;
+  }
+  .footer-icon a:link,
+  a:visited {
+    width: 100%;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 15px;
+    color: #495057;
+  }
+}

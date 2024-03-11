@@ -1,0 +1,115 @@
+@media (max-width: 767px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .grid {
+    display: grid;
+  }
+
+  .iconsflag1 {
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+  .title {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #86848456;
+  }
+
+  .iconsflag {
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+  .text1 {
+    border-bottom: 2px solid #86848456;
+  }
+
+  .content {
+    padding-bottom: 1rem;
+  }
+
+  .column1 {
+  }
+
+  /* TEAM */
+  .iconsuser {
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+  .content1 {
+    height: auto;
+    width: 100%;
+    padding-bottom: 3.2rem;
+  }
+
+  /* Time line */
+
+  .number {
+    font-size: 28px;
+    border: 2px solid #333;
+    background-color: #c7a6ecb4;
+    border-radius: 50%;
+    width: 55px;
+    height: 49px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .itemlisttimeline {
+    border-bottom: 2px dashed #32c1c9;
+  }
+
+  .itemlisttimeline1 {
+    border-bottom: 2px dashed #32c1c9;
+  }
+
+  .itemlisttimeline2 {
+    border-bottom: 2px dashed #32c1c9;
+  }
+
+  .itemlisttimeline3 {
+    border-bottom: 2px dashed #32c1c9;
+  }
+
+  .iconsnumber {
+    padding-top: 2rem;
+  }
+
+  .content3 {
+    padding-bottom: 2rem;
+  }
+
+  /* SCOPE */
+  .text2 {
+    padding-top: 2rem;
+  }
+
+  .content4 {
+    padding-bottom: 2rem;
+  }
+
+  .iconsprimary {
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  .scopes {
+    grid-row: 2/2;
+  }
+
+  .timelines {
+    grid-row: 5/5;
+  }
+
+  .primarys {
+  }
+
+  .teams {
+    grid-row: 3/3;
+  }
+}
